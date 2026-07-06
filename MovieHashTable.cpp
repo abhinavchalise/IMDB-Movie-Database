@@ -28,7 +28,6 @@ MovieHashTable::~MovieHashTable() {
 }
 
 int MovieHashTable::hash(const string& title) const {
-    //identikey is abch4744
     int value = 4744;
     for(int i = 0; i < title.size(); i++){
         value = (value * 23 + title[i]) % table_size;

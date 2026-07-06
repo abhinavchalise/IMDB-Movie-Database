@@ -31,7 +31,7 @@ It supports interactive queries by title or director.
 
 - **Hash Table** (`MovieHashTable`)  
   - Custom string hash function  
-  - Open addressing with collision counting  
+  - Separate chaining with collision counting  
 - **Skip List** (`DirectorSkipList`)  
   - Multiple levels (configurable)  
   - Fast ordered insert & search by director name  
